@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "bagian3",
-    "slug": "bagian3",
+    "name": "Pokemon Center",
+    "slug": "PokemonCenter",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,6 +16,10 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "com.pokemon.pokemoncenter",
+      "versionCode": 1
+    },
     "ios": {
       "supportsTablet": true
     },
